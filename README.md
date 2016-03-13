@@ -40,29 +40,17 @@ Edit hosts file to beautify web
 ## Install
 
 ```sh
-npm i -D adstop
+npm i -g adstop
 ```
 
 ## Usage
 
-```js
+```sh
 adstop --help
+
+sudo adstop apply
 ```
 
 ## License
 
 MIT © [Jérémy Morin](http://jermor.in)
-
-[npm-url]: https://npmjs.org/package/adstop
-[npm-image]: https://img.shields.io/npm/v/adstop.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/Jermorin/adstop
-[travis-image]: https://img.shields.io/travis/Jermorin/adstop.svg?style=flat-square
-
-[coveralls-url]: https://coveralls.io/r/Jermorin/adstop
-[coveralls-image]: https://img.shields.io/coveralls/Jermorin/adstop.svg?style=flat-square
-
-[depstat-url]: https://david-dm.org/Jermorin/adstop
-[depstat-image]: https://david-dm.org/Jermorin/adstop.svg?style=flat-square
-
-[download-badge]: http://img.shields.io/npm/dm/adstop.svg?style=flat-square
