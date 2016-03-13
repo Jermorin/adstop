@@ -55,6 +55,14 @@ adstop --help
 sudo adstop apply
 ```
 
+## Hosts
+
+- The Adaway hosts file, updated regularly.
+- MVPs.org Hosts file at http://winhelp2002.mvps.org/hosts.htm, updated monthly, or thereabouts.
+- Dan Pollock at http://someonewhocares.org/hosts/ updated regularly.
+- Malware Domain List at http://www.malwaredomainlist.com/, updated regularly.
+- Peter Lowe at http://pgl.yoyo.org/adservers/, updated regularly.
+
 ## License
 
 MIT © [Jérémy Morin](http://jermor.in)
