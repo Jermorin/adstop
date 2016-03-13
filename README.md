@@ -34,7 +34,10 @@
 
 <p align="center"><big>
 Edit hosts file to beautify web
-Apply open-source <a href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">hosts file</a> to block ads on your system
+<br/>
+Apply open-source <a href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">hosts file</a> to block ads on your Unix and Windows system
+<br/>
+
 </big></p>
 
 
