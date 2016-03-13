@@ -34,6 +34,7 @@
 
 <p align="center"><big>
 Edit hosts file to beautify web
+Apply open-source [hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) to block ads on your system
 </big></p>
 
 
