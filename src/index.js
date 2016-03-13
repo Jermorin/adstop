@@ -21,7 +21,7 @@ const apply = () => {
   });
 };
 
-program.version('0.1.2');
+program.version('0.1.3');
 
 program
   .command('apply')
