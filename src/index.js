@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import program from 'commander';
 import request from 'request';
 import fs from 'fs';
@@ -21,7 +23,7 @@ const apply = () => {
   });
 };
 
-program.version('0.0.6');
+program.version('0.1.1');
 
 program
   .command('apply')
