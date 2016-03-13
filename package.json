@@ -1,6 +1,6 @@
 {
   "name": "adstop",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Edit hosts file to beautify web",
   "main": "dist/index.js",
   "files": [
@@ -52,6 +52,7 @@
     "watch": "*"
   },
   "dependencies": {
+    "chalk": "^1.1.1",
     "commander": "^2.9.0",
     "request": "^2.69.0"
   }
