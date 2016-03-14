@@ -1,8 +1,7 @@
 {
   "name": "adstop",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Edit hosts file to beautify web",
-  "main": "bin/app.js",
   "bin":{
     "adstop": "bin/app.js"
   },

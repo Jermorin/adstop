@@ -55,6 +55,10 @@ adstop --help
 sudo adstop apply
 ```
 
+### Update hosts list
+
+Launch again : ```sudo adstop apply```
+
 ## Hosts
 
 - The Adaway hosts file, updated regularly.
