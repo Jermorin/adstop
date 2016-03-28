@@ -1,6 +1,6 @@
 {
   "name": "adstop",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Edit hosts file to beautify web",
   "bin":{
     "adstop": "bin/app.js"
@@ -15,7 +15,7 @@
     "check": "npm run lint -s && dependency-check package.json --entry src",
     "watch": "watch 'npm run build' src test",
     "test": "babel-node test/index.js | tspec",
-    "prebuild": "npm run check -s && npm run clean -s",
+    "prebuild": "npm run clean -s",
     "build": "babel --optional runtime src -d dist",
     "postbuild": "npm run test -s",
     "coverage": "babel-node node_modules/isparta/bin/isparta cover test/index.js",
