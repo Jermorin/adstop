@@ -21,14 +21,14 @@ const apply = () => {
   });
 };
 
-program.version('0.1.5');
+program.version('0.1.7');
 
 program
   .command('apply')
   .description('Apply adstop hostfile')
   .action(() => {
     var uid = parseInt(process.env.SUDO_UID);
-    if (uid) {
+    if (uid || WINDOWS) {
       apply().then(response => {
         if (response === 200) {
           console.log(chalk.green('☭ Success, reboot ur computer !'));
